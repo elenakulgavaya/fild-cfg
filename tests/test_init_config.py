@@ -15,4 +15,4 @@ def test_config_initialized():
 
 
 def test_config_initialized_on_contains():
-    assert 'test' not in Cfg.App
+    assert 'test' not in Cfg
