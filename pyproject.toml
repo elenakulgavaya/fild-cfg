@@ -2,6 +2,7 @@
 requires = [
     "setuptools>=42",
     "wheel",
-    "pyyaml"
+    "pyyaml",
+    "fild>=0.0.8"
 ]
 build-backend = "setuptools.build_meta:__legacy__"
