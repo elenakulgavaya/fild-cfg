@@ -51,7 +51,7 @@ class ConfigSection:
         return self.initial_dict.values()
 
     def __getitem__(self, item):
-        return self.__getattr__(item)  # FIXME payload only?
+        return self.__getattr__(item)
 
     def __setitem__(self, key, value):
         return self.__setattr__(key, value)
