@@ -1,5 +1,6 @@
 import warnings
 
+# pylint: disable=wrong-import-position
 warnings.warn(
     "fild-cfg is deprecated and will no longer be maintained. "
     "Migrate to surety-config: pip install surety-config. "
